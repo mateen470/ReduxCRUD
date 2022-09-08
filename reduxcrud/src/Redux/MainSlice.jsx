@@ -6,7 +6,7 @@ import {
 
 import axios from "axios";
 
-// FETCHING DATA FROM TEST API
+// GETDATA FUNCTION
 export const getData = createAsyncThunk(
   "user/getData",
   async (_, { dispatch }) => {
@@ -62,12 +62,12 @@ export const removeData = createAsyncThunk("user/removeData", async (id) => {
 export const updateData = createAsyncThunk("user/updateData", async (data) => {
   const token = localStorage.getItem("token");
 
-  
+  const { id, name } = data;
 
   try {
     const updateDataRequest = await axios.post(
       "https://safetydevapis.safetytracker.be/public/api/management/information/type",
-      { _method: "put",  },
+      { _method: "put", id, name },
       {
         headers: { Authorization: `Bearer ${token}` },
       }
