@@ -1,0 +1,139 @@
+.login_rootDiv,
+.add_DataRoot_div,
+.viewSingleUser_root_div {
+  display: inline-block;
+  margin-top: 30vh;
+}
+.form_container_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form_container_login input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid crimson;
+  font-size: 2rem;
+  color: aliceblue;
+}
+.form_container_login input::placeholder {
+  text-align: center;
+}
+.form_container_login input:focus {
+  outline: none;
+}
+.login_rootDiv h1 {
+  color: crimson;
+  font-size: 4rem;
+}
+.login_rootDiv button {
+  margin-top: 2rem;
+  border: none;
+  background: linear-gradient(#1cb1fd, #3373ef);
+  color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.login_rootDiv button:hover {
+  scale: 0.9;
+  transition: 0.4s ease-in-out;
+}
+.Home_root_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.addUser_btn_homePage a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.5rem;
+  color: crimson;
+  text-transform: uppercase;
+}
+.addUser_btn_homePage a:hover {
+  font-weight: bold;
+}
+.data_box {
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 0.5rem;
+  background-color: #1cb1fd;
+}
+.data_box span {
+  color: white;
+  background: none;
+}
+.data_box h1 {
+  color: white;
+  background: none;
+}
+.data_box a {
+  background: none;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  color: crimson;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.data_box a:hover {
+  font-weight: bold;
+}
+
+.add_DataRoot_div,
+.removeData_rootDiv,
+.updateData_root_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.updateData_root_div {
+  margin-top: 5rem;
+}
+.add_DataRoot_div input,
+.updateData_root_div input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid crimson;
+  font-size: 2rem;
+  color: aliceblue;
+}
+.add_DataRoot_div input::placeholder,
+.updateData_root_div input ::placeholder {
+  text-align: center;
+}
+.add_DataRoot_div input:focus,
+.updateData_root_div input :focus {
+  outline: none;
+}
+.add_DataRoot_div button,
+.removeData_rootDiv button,
+.updateData_root_div button {
+  margin-top: 2rem;
+  border: none;
+  background: linear-gradient(#1cb1fd, #3373ef);
+  color: white;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.add_DataRoot_div button:hover,
+.removeData_rootDiv button:hover {
+  scale: 0.9;
+  transition: 0.4s ease-in-out;
+}
+.add_DataRoot_div h1,
+.removeData_rootDiv h1 {
+  color: crimson;
+  font-size: 4rem;
+}

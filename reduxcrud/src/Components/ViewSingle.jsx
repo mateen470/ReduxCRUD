@@ -3,6 +3,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { useParams, useNavigate } from "react-router-dom";
 import { UserSelector, removeData, updateData } from "../Redux/MainSlice";
 
+import "./Main.css"
+
 const ViewSingle = () => {
   const dispatch = useDispatch();
   const params = useParams();

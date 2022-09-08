@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { UserSelector, getData } from "../Redux/MainSlice";
 import { useSelector, useDispatch } from "react-redux";
 
+import "./Main.css"
+
 const Home = () => {
   const dispatch = useDispatch();
 

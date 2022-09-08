@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+
+import "./Main.css";
+
 const Login = () => {
   const navigate = useNavigate();
 
@@ -29,6 +32,7 @@ const Login = () => {
 
   return (
     <div className="login_rootDiv">
+      <h1>LOGIN</h1>
       <div className="form_container_login">
         <input
           type="email"
